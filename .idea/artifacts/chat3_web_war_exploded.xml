@@ -1,0 +1,181 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="chat3-web:war exploded">
+    <output-path>D:/Code_Git/jd-chat-server/chat3-web/target/chat3-web</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="chat3-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="chat3-service-api-3.15-SNAPSHOT.jar">
+            <element id="module-output" name="chat3-service-api" />
+          </element>
+          <element id="library" level="project" name="Maven: com.jd.chat:chat-domain:2.0.65-jd-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.jd.soa:jd-soa-ware:1.0.41-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.jd.catagory.pbim.pbia:pbia-dubbo:1.1.9-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.jd.gms.crs:crs-rpc:1.1.0" />
+          <element id="library" level="project" name="Maven: com.jd:jsf:1.5.0" />
+          <element id="library" level="project" name="Maven: io.netty:netty-all:4.0.24.Final" />
+          <element id="library" level="project" name="Maven: com.jd.promotion:promotion-sdk:1.4.5" />
+          <element id="library" level="project" name="Maven: sns.club.soa:sns-club-soa-client:0.0.4-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: ice:ice:3.4.0" />
+          <element id="library" level="project" name="Maven: org.jboss.resteasy:resteasy-jaxrs:3.0.8.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.resteasy:jaxrs-api:3.0.8.Final" />
+          <element id="library" level="project" name="Maven: org.jboss.spec.javax.annotation:jboss-annotations-api_1.1_spec:1.0.1.Final" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Maven: net.jcip:jcip-annotations:1.0" />
+          <element id="library" level="project" name="Maven: org.jboss.resteasy:resteasy-netty4:3.0.8.Final" />
+          <element id="library" level="project" name="Maven: commons-httpclient:commons-httpclient:3.1" />
+          <element id="library" level="project" name="Maven: com.jd.common:jd-common-ws:1.1.1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-test:3.1.2.RELEASE" />
+          <element id="archive" name="chat3-config-3.15-SNAPSHOT.jar">
+            <element id="module-output" name="chat3-config" />
+          </element>
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-asm:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: com.jd.chat:chat-revival-config-util:3.0.3-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.jd.ump:jannotation:2.0.0" />
+          <element id="library" level="project" name="Maven: cglib:cglib-nodep:2.1_3" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.7.4" />
+          <element id="library" level="project" name="Maven: com.jd.common:jd-common-util:1.1.1" />
+          <element id="library" level="project" name="Maven: commons-chain:commons-chain:1.0" />
+          <element id="library" level="project" name="Maven: commons-dbcp:commons-dbcp:1.4" />
+          <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.5.4" />
+          <element id="library" level="project" name="Maven: jmagick:jmagick:6.4.0" />
+          <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
+          <element id="archive" name="chat3-insight-3.15-SNAPSHOT.jar">
+            <element id="module-output" name="chat3-insight" />
+          </element>
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.1.23" />
+          <element id="library" level="project" name="Maven: org.owasp.antisamy:antisamy:1.4.4" />
+          <element id="library" level="project" name="Maven: xerces:xercesImpl:2.8.1" />
+          <element id="library" level="project" name="Maven: org.apache.xmlgraphics:batik-css:1.7" />
+          <element id="library" level="project" name="Maven: org.apache.xmlgraphics:batik-ext:1.7" />
+          <element id="library" level="project" name="Maven: org.apache.xmlgraphics:batik-util:1.7" />
+          <element id="library" level="project" name="Maven: xml-apis:xml-apis:1.3.04" />
+          <element id="library" level="project" name="Maven: xml-apis:xml-apis-ext:1.3.04" />
+          <element id="library" level="project" name="Maven: net.sourceforge.nekohtml:nekohtml:1.9.12" />
+          <element id="library" level="project" name="Maven: com.jd.chat:jd-cache-proxyserver:2.0.66-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.jd.chat:jd-cache-service:2.0.66-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.jd.chat:jd-cache-core:2.0.66-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.jd.purchase.sdk.domain:purchase-sdk-domain:4.2.4-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.thoughtworks.xstream:xstream:1.4.2.2" />
+          <element id="library" level="project" name="Maven: xmlpull:xmlpull:1.1.3.1" />
+          <element id="library" level="project" name="Maven: net.sf.kxml:kxml2-min:2.3.0" />
+          <element id="library" level="project" name="Maven: net.sf.kxml:kxml2:2.3.0" />
+          <element id="library" level="project" name="Maven: xpp3:xpp3_min:1.1.4c" />
+          <element id="library" level="project" name="Maven: com.jd.purchase:purchase-common:1.0.0-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: org.mongodb:mongo-java-driver:2.11.3" />
+          <element id="library" level="project" name="Maven: com.jd.chat:jd-cache-proxyother:2.0.66-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.2.1" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.2.1" />
+          <element id="library" level="project" name="Maven: com.jd.dubbo.ext:dubbo-ext-spi:1.3.0-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.alibaba:dubbo:2.4.5" />
+          <element id="library" level="project" name="Maven: org.javassist:javassist:3.15.0-GA" />
+          <element id="library" level="project" name="Maven: org.jboss.netty:netty:3.2.5.Final" />
+          <element id="library" level="project" name="Maven: com.jd.ump:profiler:3.1.0" />
+          <element id="library" level="project" name="Maven: com.jd.soa:jd-soa-jss:1.0.41-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.jcloud:jss-sdk-java:1.2.0-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:14.0" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.12" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.12" />
+          <element id="library" level="project" name="Maven: joda-time:joda-time:2.2" />
+          <element id="library" level="project" name="Maven: com.jd.im:im-armour-core:1.0.6.1-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.5" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.6.4" />
+          <element id="library" level="project" name="Maven: apache-httpclient:commons-httpclient:3.1" />
+          <element id="library" level="project" name="Maven: com.jd.soa:jd-soa-util:1.0.41-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.5" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.4" />
+          <element id="library" level="project" name="Maven: com.jd.im:im-cell-access:2.1.0-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.jd.im:im-cell-access-api:2.1.0-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.jd.im:im-cell-domain:2.1.0-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.jd.im:im-cell-core-api:2.1.0-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.jd.im:im-cell-sla:2.1.0-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: me.mindwind:craft-atom-util:2.1.2-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.jd.common:jd-common-struts:1.1.6" />
+          <element id="library" level="project" name="Maven: com.jd.common:jd-common-web:1.1.3" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.1.1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.1" />
+          <element id="library" level="project" name="Maven: org.apache.struts:struts2-core:2.3.15.1" />
+          <element id="library" level="project" name="Maven: org.apache.struts.xwork:xwork-core:2.3.15.1" />
+          <element id="library" level="project" name="Maven: asm:asm-commons:3.3" />
+          <element id="library" level="project" name="Maven: asm:asm-tree:3.3" />
+          <element id="library" level="project" name="Maven: org.freemarker:freemarker:2.3.19" />
+          <element id="library" level="project" name="Maven: ognl:ognl:3.0.6" />
+          <element id="library" level="project" name="Maven: javassist:javassist:3.11.0.GA" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.0.1" />
+          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.3.1" />
+          <element id="library" level="project" name="Maven: org.apache.struts:struts2-spring-plugin:2.3.15.1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: org.apache.struts:struts2-json-plugin:2.3.15.1" />
+          <element id="library" level="project" name="Maven: org.apache.velocity:velocity:1.6.3" />
+          <element id="library" level="project" name="Maven: velocity-tools:velocity-tools:1.2" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-frontend-jaxws:2.2.4" />
+          <element id="library" level="project" name="Maven: xml-resolver:xml-resolver:1.2" />
+          <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-jaxws_2.1_spec:1.0" />
+          <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-ws-metadata_2.0_spec:1.1.2" />
+          <element id="library" level="project" name="Maven: asm:asm:2.2.3" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-api:2.2.4" />
+          <element id="library" level="project" name="Maven: org.apache.ws.commons.schema:XmlSchema:1.4.5" />
+          <element id="library" level="project" name="Maven: org.codehaus.woodstox:wstx-asl:3.2.8" />
+          <element id="library" level="project" name="Maven: org.apache.neethi:neethi:2.0.4" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-common-schemas:2.2.4" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-core:2.2.4" />
+          <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-impl:2.1.12" />
+          <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-javamail_1.4_spec:1.6" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-bindings-soap:2.2.4" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-tools-common:2.2.4" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-databinding-jaxb:2.2.4" />
+          <element id="library" level="project" name="Maven: javax.xml.bind:jaxb-api:2.1" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-bindings-xml:2.2.4" />
+          <element id="library" level="project" name="Maven: javax.xml.soap:saaj-api:1.3" />
+          <element id="library" level="project" name="Maven: com.sun.xml.messaging.saaj:saaj-impl:1.3.2" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-transports-http:2.2.4" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-ws-rm:2.2.4" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-common-utilities:2.2.4" />
+          <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-stax-api_1.0_spec:1.0.1" />
+          <element id="library" level="project" name="Maven: wsdl4j:wsdl4j:1.6.2" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-frontend-simple:2.2.4" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-ws-security:2.2.4" />
+          <element id="library" level="project" name="Maven: org.apache.ws.security:wss4j:1.5.8" />
+          <element id="library" level="project" name="Maven: org.apache.santuario:xmlsec:1.4.3" />
+          <element id="library" level="project" name="Maven: xalan:xalan:2.7.1" />
+          <element id="library" level="project" name="Maven: xalan:serializer:2.7.1" />
+          <element id="library" level="project" name="Maven: org.bouncycastle:bcprov-jdk15:1.43" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-ws-addr:2.2.4" />
+          <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-activation_1.1_spec:1.0.2" />
+          <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-ws-policy:2.2.4" />
+          <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-annotation_1.0_spec:1.1.1" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2" />
+          <element id="library" level="project" name="Maven: commons-digester:commons-digester:2.0" />
+          <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.8.0" />
+          <element id="library" level="project" name="Maven: com.jd.common:struts2-security-plugin:0.1.2" />
+          <element id="library" level="project" name="Maven: me.mindwind:craft-atom-redis:2.1.2-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: redis.clients:jedis:2.5.1" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.0" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.5" />
+          <element id="library" level="project" name="Maven: im-king:im-king-api:1.0.2-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: im-king:im-king-domain:1.0.2-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.jd.im:im-risk-domain:0.0.1-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.jd.im:ds-config-api:1.0.4.21-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-orm:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: com.jd.im:ds-config-server:1.0.1.5-SNAPSHOT" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="D:/Code_Git/jd-chat-server/chat3-web/target/chat3-web/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="chat3-web/web/Web" />
+    </root>
+  </artifact>
+</component>
