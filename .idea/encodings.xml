@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
     <file url="file://$PROJECT_DIR$/pom.xml" charset="GBK" />
+    <file url="jar://$MAVEN_REPOSITORY$/com/taobao/mmp/mmp-client-web/3.2.6.8/mmp-client-web-3.2.6.8-sources.jar!/com/taobao/mmp/client/util/MMPTools.java" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

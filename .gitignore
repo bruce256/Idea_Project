@@ -48,3 +48,8 @@ Temporary Items
 .idea
 Idea_Project.iml
 /.idea/
+.idea/artifacts/
+.idea/inspectionProfiles/
+.idea/kotlinc.xml
+.idea/libraries/
+target/
