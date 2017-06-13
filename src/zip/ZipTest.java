@@ -31,7 +31,7 @@ public class ZipTest {
 
 	@Test
 	public void loadMacZip2() throws Exception {
-		AutoDetectZipFile zipFile = new AutoDetectZipFile("/Users/lvsheng/Downloads/test.zip");
+		AutoDetectZipFile zipFile = new AutoDetectZipFile("/work/商品服务/主流程模板.zip");
 		Enumeration       e       = zipFile.getEntries();
 		while (e.hasMoreElements()) {
 			ZipEntry entry = (ZipEntry) e.nextElement();
