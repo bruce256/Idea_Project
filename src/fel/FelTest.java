@@ -3,6 +3,7 @@ package fel;
 import com.greenpineyu.fel.FelEngine;
 import com.greenpineyu.fel.FelEngineImpl;
 import com.greenpineyu.fel.context.FelContext;
+import org.junit.Test;
 
 import java.util.*;
 
@@ -121,5 +122,28 @@ public class FelTest {
 		"a".toUpperCase();
 		fel.eval("out.println('Hello Everybody'.toLowerCase())");
 		fel.eval("out.println('Hello Everybody'.toUpperCase())");
+	}
+
+	@Test
+	public void method2() {
+		FelEngine  fel = new FelEngineImpl();
+		FelContext ctx = fel.getContext();
+		Foo        foo = new Foo();
+		ctx.set("foo", foo);
+		ctx.set("name", "儒尊");
+		fel.eval("foo.setName(\"儒尊\")");
+		System.out.println(foo.getName());
+	}
+
+	@Test
+	public void list() {
+		FelEngine  fel = new FelEngineImpl();
+		FelContext ctx = fel.getContext();
+		Foo        foo = new Foo();
+
+		ctx.set("foo", foo);
+		ctx.set("name", "儒尊");
+		fel.eval("foo.getList().add(name)");
+		System.out.println(foo.getList());
 	}
 }
