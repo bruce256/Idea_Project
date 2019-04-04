@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="chat3-web:war">
-    <output-path>D:/Code_Git/jd-chat-server/chat3-web/target</output-path>
-    <root id="archive" name="chat3-web.war">
-      <element id="artifact" artifact-name="chat3-web:war exploded" />
-    </root>
-  </artifact>
-</component>

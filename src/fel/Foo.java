@@ -12,6 +12,16 @@ public class Foo {
 	private int          size = 10;
 	private String       name = "lvsheng";
 	private List<String> list = new ArrayList<>();
+	private Integer itemType;
+
+	public Integer getItemType() {
+		return itemType;
+	}
+
+	public Foo setItemType(Integer itemType) {
+		this.itemType = itemType;
+		return this;
+	}
 
 	public List<String> getList() {
 		return list;

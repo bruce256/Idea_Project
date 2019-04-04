@@ -5,25 +5,31 @@ import com.greenpineyu.fel.FelEngineImpl;
 import com.greenpineyu.fel.context.FelContext;
 import org.junit.Test;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
 
 /**
  * @author 儒尊
  * @date 2017/05/18
  */
 public class FelTest {
-
+	
 	public static void main(String[] args) {
 		FelEngine fel    = new FelEngineImpl();
 		Object    result = fel.eval("5000*12+7500");
 		System.out.println(result);
-
+		
 		variable();
 		obj();
 		collection();
 		method();
 	}
-
+	
 	public static void variable() {
 		FelEngine  fel = new FelEngineImpl();
 		FelContext ctx = fel.getContext();
@@ -33,7 +39,7 @@ public class FelTest {
 		Object result = fel.eval("单价*数量+运费");
 		System.out.println(result);
 	}
-
+	
 	public static void obj() {
 		FelEngine  fel = new FelEngineImpl();
 		FelContext ctx = fel.getContext();
@@ -42,25 +48,25 @@ public class FelTest {
 		Map m = new HashMap();
 		m.put("ElName", "fel");
 		ctx.set("m", m);
-
+		
 		//调用foo.getSize()方法。
 		Object result = fel.eval("foo.getSize()");
 		System.out.println(result);
 		//调用foo.isSample()方法。
 		result = fel.eval("foo.sample");
 		System.out.println(result);
-
+		
 		//foo没有name、getName、isName方法
 		// foo.name会调用foo.get("name")方法。
 		result = fel.eval("foo.name");
 		System.out.println(result);
-
+		
 		//m.ElName会调用m.get("ElName");
 		result = fel.eval("m.ElName");
 		System.out.println(result);
-
+		
 	}
-
+	
 	public static void collection() {
 		FelEngine  fel = new FelEngineImpl();
 		FelContext ctx = fel.getContext();
@@ -114,7 +120,7 @@ public class FelTest {
 		exp = "listArray[0][0]";
 		System.out.println(exp + "->" + fel.eval(exp));
 	}
-
+	
 	public static void method() {
 		FelEngine  fel = new FelEngineImpl();
 		FelContext ctx = fel.getContext();
@@ -123,7 +129,7 @@ public class FelTest {
 		fel.eval("out.println('Hello Everybody'.toLowerCase())");
 		fel.eval("out.println('Hello Everybody'.toUpperCase())");
 	}
-
+	
 	@Test
 	public void method2() {
 		FelEngine  fel = new FelEngineImpl();
@@ -134,16 +140,31 @@ public class FelTest {
 		fel.eval("foo.setName(\"儒尊\")");
 		System.out.println(foo.getName());
 	}
-
+	
 	@Test
 	public void list() {
 		FelEngine  fel = new FelEngineImpl();
 		FelContext ctx = fel.getContext();
 		Foo        foo = new Foo();
-
+		
 		ctx.set("foo", foo);
 		ctx.set("name", "儒尊");
 		fel.eval("foo.getList().add(name)");
 		System.out.println(foo.getList());
 	}
+	
+	@Test
+	public void typeConvert() {
+		FelEngine  fel      = new FelEngineImpl();
+		FelContext ctx      = fel.getContext();
+		Foo        foo      = new Foo();
+		Long       itemType = 1L;
+		
+		ctx.set("foo", foo);
+		ctx.set("itemType", itemType);
+		fel.eval("foo.getList().setItemType(()itemType)");
+		System.out.println(foo.getList());
+	}
+	
+	
 }
